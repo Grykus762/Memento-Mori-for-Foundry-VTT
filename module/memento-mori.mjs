@@ -1,5 +1,5 @@
 // Import document classes.
-import { BoilerplateActor } from './documents/actor.mjs';
+import { MementoMoriActor } from './documents/actor.mjs';
 import { BoilerplateItem } from './documents/item.mjs';
 // Import sheet classes.
 import { BoilerplateActorSheet } from './sheets/actor-sheet.mjs';
@@ -15,8 +15,9 @@ import { BOILERPLATE } from './helpers/config.mjs';
 Hooks.once('init', function () {
   // Add utility classes to the global game object so that they're more easily
   // accessible in global contexts.
-  game.boilerplate = {
-    BoilerplateActor,
+  console.warn("Initializing Memento Mori")
+  game.mementomori = {
+    MementoMoriActor,
     BoilerplateItem,
     rollItemMacro,
   };

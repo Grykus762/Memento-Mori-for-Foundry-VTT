@@ -1,23 +1,18 @@
-export const BOILERPLATE = {};
+export const MEMENTOMORI = {};
 
 /**
  * The set of Ability Scores used within the system.
  * @type {Object}
  */
-BOILERPLATE.abilities = {
-  str: 'BOILERPLATE.Ability.Str.long',
-  dex: 'BOILERPLATE.Ability.Dex.long',
-  con: 'BOILERPLATE.Ability.Con.long',
-  int: 'BOILERPLATE.Ability.Int.long',
-  wis: 'BOILERPLATE.Ability.Wis.long',
-  cha: 'BOILERPLATE.Ability.Cha.long',
-};
-
-BOILERPLATE.abilityAbbreviations = {
-  str: 'BOILERPLATE.Ability.Str.abbr',
-  dex: 'BOILERPLATE.Ability.Dex.abbr',
-  con: 'BOILERPLATE.Ability.Con.abbr',
-  int: 'BOILERPLATE.Ability.Int.abbr',
-  wis: 'BOILERPLATE.Ability.Wis.abbr',
-  cha: 'BOILERPLATE.Ability.Cha.abbr',
+MEMENTOMORI.attributes = {
+  blood: 'MEMENTOMORI.Blood.slots',
+  bloodCorruption: 'MEMENTOMORI.Blood.corruption',
+  nerveSlots: 'MEMENTOMORI.Organs.nerve.slots',
+  nerveCorruption: 'MEMENTOMORI.Organs.nerve.corruption',
+  cerebrumSlots: 'MEMENTOMORI.Organs.cerebru,.slots',
+  cerebrumCorruption: 'MEMENTOMORI.Organs.cerebru,.corruption',
+  heartSlots: 'MEMENTOMORI.Organs.heart.slots',
+  heartCorruption: 'MEMENTOMORI.Organs.heart.corruption',  
+  visceraSlots: 'MEMENTOMORI.Organs.viscera.slots',
+  visceraCorruption: 'MEMENTOMORI.Organs.viscera.corruption',  
 };
